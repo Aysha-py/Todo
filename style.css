@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    background-color: white;
+}
+.upper-bg{
+    height: 10vh;
+    width: 100vw;
+}
+.upper-bg img{
+    height: auto;
+    width: 100%;
+}
+.upper-bg h1{
+    position: absolute;
+    color: white;
+    top: 10%;
+   left: 30%;
+   font-size: 2rem;
+   
+}
+.upper-bg i{
+    position: absolute;
+    color: white;
+    top:10%;
+    left:70%;
+}
+
+.typing i{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    top:20%;
+    left: 40%;
+    font-size: 20px;
+    padding:10px;
+    background-color: rgb(73, 70, 70);
+}
+.typing input{
+    width: 20vw;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(73, 70, 70);
+
+}
+::placeholder{
+    font-size: 20px;
+}
+.todo-list{
+   position: absolute;
+   top: 35%;
+   color: white;
+   border: 1px solid;
+   width: 50vw;
+   border-radius: 10px;
+   cursor: pointer;
+  height: 500px;
+   left: 25%;
+   background-color: rgb(73, 70, 70);
+   padding:10px;
+}
+
+.todo-list span{
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.list li{
+    list-style: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+}
+.bottom-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    position: absolute;
+    padding: 20px;
+    top: 90%;
+}
+.middle{
+    display: flex;
+    
+}
+.all,.active,.completed{
+    margin-left: 50px;
+}
+.left{
+    margin-left: 70px;
+}
