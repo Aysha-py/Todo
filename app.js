@@ -34,20 +34,12 @@ var close =document.getElementsByClassName("close");
 var i;
 
 for (i=0; i<=close.length; i++){
-    close[i].eonclick = function() {
+    close[i].onclick = function() {
         var div = this.parentElement;
         div.style.display = "none";
     }  
     
 }
-
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-   console.log("hfhf")
-  }
-}, false);
-
 
 function newElement(){
     var li = document.createElement('li')
