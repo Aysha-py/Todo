@@ -24,21 +24,23 @@
 
         <div class="typing">
             <input type="text" id="typing" placeholder="currently typing">
-            <button type="button">Add</button>
+            <button type="button" onclick="newElement()">Add</button>
         </div>
     </div>
 
     <div class="todo-list">
         <div class="list">
-            <li>Complete online tutorial</li>
-            <li>Go to the gym</li>
-            <li>Read a book</li>
-            <li>complete todo app</li>
-            <li>pickup groceries</li>
-            <li id="bottom">
+            <div id="mylist">
+                <ul>
+                    
+                </ul>
+                
+            </div>
+            
+            <div id="bottom">
                 <div class="bottom-items">
                     <div class="right">
-                        <div class="items-left">
+                        <div class="items-left" id="count">
                            <h5>5 items-left</h5>
                         </div>
                     </div>
@@ -60,7 +62,7 @@
                     </div>
                     
                 </div>
-            </li>
+            </div>
         </div>
         
         
