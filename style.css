@@ -45,8 +45,10 @@ li.checked::before {
     height: 15px;
     width: 7px;
     margin: 15px 20px 0px -10px;
-    text-decoration: line-through;
+    
 }
+
+
 
 .typing{
     position: absolute;

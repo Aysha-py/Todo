@@ -29,6 +29,7 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
+
 var close =document.getElementsByClassName("close");
 
 var i;
@@ -40,6 +41,10 @@ for (i=0; i<=close.length; i++){
     }  
     
 }
+
+
+
+
 
 function newElement(){
     var li = document.createElement('li')
@@ -65,6 +70,7 @@ function newElement(){
           div.style.display = "none";
         }
     }
+
 
     // function countItems(){
     //     var add = document.getElementById('typing').value;
