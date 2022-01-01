@@ -158,5 +158,43 @@ main{
 }
 
 @media screen and (max-width:480px){
-    
+    .main{
+        max-width: 100%;
+        
+    }
+    .upper-bg{
+        width: 100%;   
+    }
+    .typing{
+        
+        top: 7em;
+        left: 5em;
+        
+    }
+    .typing input{
+        font-size: 0.5rem;
+      
+        
+    } 
+    ::placeholder{
+        font-size: 1.5em;
+    }
+    .todo-list{
+        top: 10em;
+        width: 70%;
+        left: 17%;
+    }
+    .bottom-items{
+        display: flex;
+        
+    }
+    .all, .active{ 
+        margin-right: 1rem;
+    }
+
+    .right{
+        margin-right:1em;
+        
+    }
+
 }
