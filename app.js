@@ -32,14 +32,30 @@ for (i = 0; i < myNodelist.length; i++) {
 
 // Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
+var update = 5
+var count = document.getElementById("count-number")
 var i;
 for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
+    update-=1;
+    
+    count.innerText = update;
   }
+ 
 }
+function toggle(){
+    let m = document.querySelector('ul')
+    var i;
 
+
+    for(i=0;i<=m.length; i++){
+        m[i].onclick = function(){
+            this.classList.toggle("checked")
+        }
+    }
+}
 
 
 function newElement() {
@@ -52,6 +68,7 @@ function newElement() {
     }
     else {
         document.getElementById("mylist").appendChild(li);
+        
     }
     document.getElementById('typing').value = ""
 
@@ -68,16 +85,5 @@ function newElement() {
     }
 
 
-    // function countItems(){
-    //     var add = document.getElementById('typing').value;
-    //     var count = document.getElementById('count')
-    //     if (add){
-    //         var i,
-
-    //         for (i=0; i<=add; i++){
-    //             count.innerHTML = i + "items-left"
-    //         }
-    // }   }
-
-
 }
+
